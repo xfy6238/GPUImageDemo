@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleController">
+            <connections>
+                <outlet property="camerButton" destination="joB-ql-5rh" id="QEV-qp-Krl"/>
+                <outlet property="mGPUImageView" destination="7Mc-7n-8tN" id="URb-3p-fK2"/>
+                <outlet property="segmentControl" destination="SVQ-C6-rjG" id="Uag-2u-22g"/>
+                <outlet property="view" destination="iN0-l3-epB" id="8w5-5E-Uoz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Mc-7n-8tN" customClass="GPUImageView">
+                    <rect key="frame" x="0.0" y="44" width="414" height="718"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joB-ql-5rh">
+                    <rect key="frame" x="177" y="792" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="BoK-yF-d8w"/>
+                        <constraint firstAttribute="width" constant="60" id="CLw-Jq-NgD"/>
+                    </constraints>
+                    <connections>
+                        <action selector="takePhoto:" destination="-1" eventType="touchUpInside" id="vtC-Wr-Gkh"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SVQ-C6-rjG">
+                    <rect key="frame" x="12" y="806.5" width="145" height="32"/>
+                    <segments>
+                        <segment title="单一滤镜"/>
+                        <segment title="滤镜组"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentAction:" destination="-1" eventType="valueChanged" id="bb4-LW-NoK"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="joB-ql-5rh" firstAttribute="leading" secondItem="SVQ-C6-rjG" secondAttribute="trailing" constant="20" id="1AF-a3-oj5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Mc-7n-8tN" secondAttribute="trailing" id="2NV-2H-QXh"/>
+                <constraint firstItem="joB-ql-5rh" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="I9U-ZA-1Ia"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7Mc-7n-8tN" secondAttribute="bottom" constant="100" id="KiD-LM-TBi"/>
+                <constraint firstItem="joB-ql-5rh" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-10" id="PzB-Th-Pt3"/>
+                <constraint firstItem="SVQ-C6-rjG" firstAttribute="centerY" secondItem="joB-ql-5rh" secondAttribute="centerY" id="Q2v-II-A2h"/>
+                <constraint firstItem="7Mc-7n-8tN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YMN-0q-bqw"/>
+                <constraint firstItem="7Mc-7n-8tN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="q2t-QK-1fM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="139" y="94"/>
+        </view>
+    </objects>
+</document>

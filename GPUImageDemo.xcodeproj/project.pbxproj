@@ -3,19 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790CFC3523A36BE700E0B3A7 /* SCPhotoResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CFC3023A36BE700E0B3A7 /* SCPhotoResultViewController.m */; };
+		790CFC3623A36BE700E0B3A7 /* SCPhotoResultViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 790CFC3223A36BE700E0B3A7 /* SCPhotoResultViewController+UI.m */; };
+		79331421237957A30023957D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79331420237957A30023957D /* RootViewController.m */; };
+		793314692379600F0023957D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793314682379600F0023957D /* RootViewController.xib */; };
+		793593A123794D1A004CA570 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793593A023794D1A004CA570 /* SimpleController.m */; };
+		793593A523794E08004CA570 /* CamerVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793593A423794E08004CA570 /* CamerVideoController.m */; };
+		793BA26623A87AF30052BB8F /* SCVideoResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793BA26123A87AF30052BB8F /* SCVideoResultViewController.m */; };
+		793BA26723A87AF30052BB8F /* SCVideoResultViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 793BA26523A87AF30052BB8F /* SCVideoResultViewController+UI.m */; };
+		793BA26A23A87B260052BB8F /* SCAssetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 793BA26923A87B260052BB8F /* SCAssetHelper.m */; };
+		793E4A8823C6C515007C42FE /* DefaultFilterMaterials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 793E4A8623C6C514007C42FE /* DefaultFilterMaterials.plist */; };
+		793E4A8923C6C515007C42FE /* TikTokFilterMaterials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 793E4A8723C6C514007C42FE /* TikTokFilterMaterials.plist */; };
+		793E4A8D23C6C56D007C42FE /* filter_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 793E4A8C23C6C56D007C42FE /* filter_sample.jpg */; };
+		793E4A9023C761B6007C42FE /* SCCamerController+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A8F23C761B6007C42FE /* SCCamerController+Filter.m */; };
+		793E4A9E23CCB2AC007C42FE /* SCGPUImageShakeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9723CCB2AC007C42FE /* SCGPUImageShakeFilter.m */; };
+		793E4A9F23CCB2AC007C42FE /* SCGPUImageVertigoFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9823CCB2AC007C42FE /* SCGPUImageVertigoFilter.m */; };
+		793E4AA023CCB2AC007C42FE /* SCGPUImageSoulOutFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9923CCB2AC007C42FE /* SCGPUImageSoulOutFilter.m */; };
+		793E4AA123CCB2AC007C42FE /* SCGPUImageScaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9A23CCB2AC007C42FE /* SCGPUImageScaleFilter.m */; };
+		793E4AA223CCB2AC007C42FE /* SCGPUImageGlitchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9C23CCB2AC007C42FE /* SCGPUImageGlitchFilter.m */; };
+		793E4AA323CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 793E4A9D23CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.m */; };
+		7945D8F9239A00AB002F7411 /* SCFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7945D8F8239A00AB002F7411 /* SCFileHelper.m */; };
+		7947FB6E2393DFEF0063F169 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB6D2393DFEF0063F169 /* SCViewController.m */; };
+		7947FB732393E0C40063F169 /* SCCamerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB722393E0C40063F169 /* SCCamerController.m */; };
+		7947FB762393E5C30063F169 /* SCCamerController+Noticfication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB752393E5C30063F169 /* SCCamerController+Noticfication.m */; };
+		7947FB792393EA5A0063F169 /* SCCamerController+RecordVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB782393EA5A0063F169 /* SCCamerController+RecordVideo.m */; };
+		7947FB802393EFC10063F169 /* SSCapturingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB7F2393EFC10063F169 /* SSCapturingButton.m */; };
+		7947FB852393F7FB0063F169 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB842393F7FB0063F169 /* UIView+Extension.m */; };
+		7947FB8E23947F530063F169 /* SCCamerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB8D23947F530063F169 /* SCCamerManager.m */; };
+		7947FB9123947F7E0063F169 /* SCFilterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB9023947F7E0063F169 /* SCFilterHandler.m */; };
+		7947FB96239483100063F169 /* SSGPUImageBaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB95239483100063F169 /* SSGPUImageBaseFilter.m */; };
+		7947FB9A2394F2640063F169 /* LFGPUImageBeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB992394F2630063F169 /* LFGPUImageBeautyFilter.m */; };
+		7947FB9F2397972D0063F169 /* GPUImageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FB9E2397972D0063F169 /* GPUImageListController.m */; };
+		7947FBA2239798900063F169 /* GPUimageGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947FBA1239798900063F169 /* GPUimageGroupController.m */; };
+		7947FBA42397992C0063F169 /* SimpleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7947FBA32397992C0063F169 /* SimpleController.xib */; };
+		79483925238DF1CF00E93FC0 /* QuartzController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79483924238DF1CF00E93FC0 /* QuartzController.m */; };
+		79483928238DF22700E93FC0 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79483927238DF22700E93FC0 /* QuartzView.m */; };
+		7948392B238E6C6900E93FC0 /* AVVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7948392A238E6C6900E93FC0 /* AVVideoController.m */; };
+		7948392F238E6CDB00E93FC0 /* SimpleVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7948392E238E6CDB00E93FC0 /* SimpleVideoController.m */; };
+		79483933238EC05400E93FC0 /* video.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 79483932238EBFEE00E93FC0 /* video.MP4 */; };
+		79483936238FC77600E93FC0 /* SimpleCamerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79483935238FC77500E93FC0 /* SimpleCamerViewController.m */; };
+		7948393C238FF59000E93FC0 /* THPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7948393B238FF59000E93FC0 /* THPreviewView.m */; };
+		7948393F238FFD7500E93FC0 /* THCamerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7948393E238FFD7500E93FC0 /* THCamerController.m */; };
+		794839412390B69800E93FC0 /* SimpleCamerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794839402390B69800E93FC0 /* SimpleCamerViewController.xib */; };
 		7964593223770C9800979D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964593123770C9800979D82 /* AppDelegate.m */; };
-		7964593523770C9800979D82 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964593423770C9800979D82 /* SceneDelegate.m */; };
-		7964593823770C9800979D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964593723770C9800979D82 /* ViewController.m */; };
-		7964593B23770C9800979D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7964593923770C9800979D82 /* Main.storyboard */; };
 		7964593D23770C9B00979D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7964593C23770C9B00979D82 /* Assets.xcassets */; };
-		7964594023770C9B00979D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7964593E23770C9B00979D82 /* LaunchScreen.storyboard */; };
 		7964594323770C9B00979D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964594223770C9B00979D82 /* main.m */; };
 		7964594D23770C9B00979D82 /* GPUImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964594C23770C9B00979D82 /* GPUImageDemoTests.m */; };
 		7964595823770C9B00979D82 /* GPUImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7964595723770C9B00979D82 /* GPUImageDemoUITests.m */; };
+		798C5708239DC4F80041AFF2 /* SCFilterMaterialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5707239DC4F80041AFF2 /* SCFilterMaterialView.m */; };
+		798C570B239DDE2B0041AFF2 /* SCFilterMaterialViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C570A239DDE2B0041AFF2 /* SCFilterMaterialViewCell.m */; };
+		798C570E239DDEF60041AFF2 /* SCFilterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C570D239DDEF60041AFF2 /* SCFilterHelper.m */; };
+		798C5711239E2B0A0041AFF2 /* SCFilterCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5710239E2B090041AFF2 /* SCFilterCategoryView.m */; };
+		798C5714239E2C4A0041AFF2 /* SCFilterCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5713239E2C4A0041AFF2 /* SCFilterCategoryCell.m */; };
+		798C5717239F34B80041AFF2 /* SCCamerTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5716239F34B80041AFF2 /* SCCamerTopView.m */; };
+		798C571A239F43200041AFF2 /* SCCapturingModeSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5719239F43200041AFF2 /* SCCapturingModeSwitchView.m */; };
+		798C571E239F80F60041AFF2 /* SCVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C571D239F80F60041AFF2 /* SCVisualEffectView.m */; };
+		798C5724239F85F80041AFF2 /* UIDevice+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 798C5723239F85F80041AFF2 /* UIDevice+Extention.m */; };
+		79B124EA2398A5D70025D4F3 /* SystemPhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B124E92398A5D70025D4F3 /* SystemPhotoTool.m */; };
+		79B76D0C237A5E7F00389CFE /* VaguePictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B76D0B237A5E7F00389CFE /* VaguePictureController.m */; };
+		79B76D11237AA2DF00389CFE /* VideoFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B76D10237AA2DF00389CFE /* VideoFilterController.m */; };
+		79B76D16237B9D4700389CFE /* VideoTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B76D15237B9D4700389CFE /* VideoTableController.m */; };
+		79B76D19237B9ED300389CFE /* VideoWaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B76D18237B9ED300389CFE /* VideoWaterController.m */; };
+		79B76D1D237BADF100389CFE /* abc.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79B76D1C237BADF100389CFE /* abc.mp4 */; };
+		79B76D21237BD6E100389CFE /* qwe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 79B76D20237BD6E000389CFE /* qwe.mp4 */; };
+		79CEE988239BE54400CDABFA /* SCVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE987239BE54400CDABFA /* SCVideoModel.m */; };
+		79CEE98B239BE94E00CDABFA /* SCCameraVideoTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE98A239BE94E00CDABFA /* SCCameraVideoTimeLabel.m */; };
+		79CEE98E239BE9CD00CDABFA /* SCTimerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE98D239BE9CD00CDABFA /* SCTimerHelper.m */; };
+		79CEE991239C9CF100CDABFA /* SCFilterMaterialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE990239C9CF100CDABFA /* SCFilterMaterialModel.m */; };
+		79CEE994239CA0EE00CDABFA /* SCFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE993239CA0EE00CDABFA /* SCFilterManager.m */; };
+		79CEE997239CAC3900CDABFA /* SCCamerController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE996239CAC3900CDABFA /* SCCamerController+UI.m */; };
+		79CEE99A239CFC5A00CDABFA /* UIButton+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE999239CFC5A00CDABFA /* UIButton+Extention.m */; };
+		79CEE99D239D2BB600CDABFA /* SCFilterBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CEE99C239D2BB600CDABFA /* SCFilterBarView.m */; };
+		A8528C32AFD0F67B6A8F4EB0 /* libPods-GPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F8A332576FB16426841847 /* libPods-GPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +99,94 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3498A284FDB38B0B3968D7F0 /* Pods-GPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		79001B552379A3A000686B89 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		790CFC3023A36BE700E0B3A7 /* SCPhotoResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPhotoResultViewController.m; sourceTree = "<group>"; };
+		790CFC3123A36BE700E0B3A7 /* SCPhotoResultViewController+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPhotoResultViewController+UI.h"; sourceTree = "<group>"; };
+		790CFC3223A36BE700E0B3A7 /* SCPhotoResultViewController+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCPhotoResultViewController+UI.m"; sourceTree = "<group>"; };
+		790CFC3323A36BE700E0B3A7 /* SCPhotoResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPhotoResultViewController.h; sourceTree = "<group>"; };
+		790CFC3423A36BE700E0B3A7 /* SCPhotoResultViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPhotoResultViewController+Private.h"; sourceTree = "<group>"; };
+		7933141F237957A30023957D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		79331420237957A30023957D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		793314682379600F0023957D /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		7935939F23794D1A004CA570 /* SimpleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
+		793593A023794D1A004CA570 /* SimpleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
+		793593A323794E08004CA570 /* CamerVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CamerVideoController.h; sourceTree = "<group>"; };
+		793593A423794E08004CA570 /* CamerVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamerVideoController.m; sourceTree = "<group>"; };
+		793BA26123A87AF30052BB8F /* SCVideoResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCVideoResultViewController.m; sourceTree = "<group>"; };
+		793BA26223A87AF30052BB8F /* SCVideoResultViewController+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCVideoResultViewController+UI.h"; sourceTree = "<group>"; };
+		793BA26323A87AF30052BB8F /* SCVideoResultViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCVideoResultViewController+Private.h"; sourceTree = "<group>"; };
+		793BA26423A87AF30052BB8F /* SCVideoResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCVideoResultViewController.h; sourceTree = "<group>"; };
+		793BA26523A87AF30052BB8F /* SCVideoResultViewController+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCVideoResultViewController+UI.m"; sourceTree = "<group>"; };
+		793BA26823A87B260052BB8F /* SCAssetHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAssetHelper.h; sourceTree = "<group>"; };
+		793BA26923A87B260052BB8F /* SCAssetHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAssetHelper.m; sourceTree = "<group>"; };
+		793E4A8623C6C514007C42FE /* DefaultFilterMaterials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultFilterMaterials.plist; sourceTree = "<group>"; };
+		793E4A8723C6C514007C42FE /* TikTokFilterMaterials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TikTokFilterMaterials.plist; sourceTree = "<group>"; };
+		793E4A8C23C6C56D007C42FE /* filter_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = filter_sample.jpg; sourceTree = "<group>"; };
+		793E4A8E23C761B6007C42FE /* SCCamerController+Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCCamerController+Filter.h"; sourceTree = "<group>"; };
+		793E4A8F23C761B6007C42FE /* SCCamerController+Filter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCCamerController+Filter.m"; sourceTree = "<group>"; };
+		793E4A9223CCB2AC007C42FE /* SCGPUImageVertigoFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageVertigoFilter.h; sourceTree = "<group>"; };
+		793E4A9323CCB2AC007C42FE /* SCGPUImageScaleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageScaleFilter.h; sourceTree = "<group>"; };
+		793E4A9423CCB2AC007C42FE /* SCGPUImageSoulOutFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageSoulOutFilter.h; sourceTree = "<group>"; };
+		793E4A9523CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageShineWhiteFilter.h; sourceTree = "<group>"; };
+		793E4A9623CCB2AC007C42FE /* SCGPUImageGlitchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageGlitchFilter.h; sourceTree = "<group>"; };
+		793E4A9723CCB2AC007C42FE /* SCGPUImageShakeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageShakeFilter.m; sourceTree = "<group>"; };
+		793E4A9823CCB2AC007C42FE /* SCGPUImageVertigoFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageVertigoFilter.m; sourceTree = "<group>"; };
+		793E4A9923CCB2AC007C42FE /* SCGPUImageSoulOutFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageSoulOutFilter.m; sourceTree = "<group>"; };
+		793E4A9A23CCB2AC007C42FE /* SCGPUImageScaleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageScaleFilter.m; sourceTree = "<group>"; };
+		793E4A9B23CCB2AC007C42FE /* SCGPUImageShakeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGPUImageShakeFilter.h; sourceTree = "<group>"; };
+		793E4A9C23CCB2AC007C42FE /* SCGPUImageGlitchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageGlitchFilter.m; sourceTree = "<group>"; };
+		793E4A9D23CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGPUImageShineWhiteFilter.m; sourceTree = "<group>"; };
+		7945D8F7239A00AB002F7411 /* SCFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFileHelper.h; sourceTree = "<group>"; };
+		7945D8F8239A00AB002F7411 /* SCFileHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFileHelper.m; sourceTree = "<group>"; };
+		7947FB6C2393DFEF0063F169 /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		7947FB6D2393DFEF0063F169 /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		7947FB712393E0C40063F169 /* SCCamerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCamerController.h; sourceTree = "<group>"; };
+		7947FB722393E0C40063F169 /* SCCamerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCamerController.m; sourceTree = "<group>"; };
+		7947FB742393E5C30063F169 /* SCCamerController+Noticfication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCCamerController+Noticfication.h"; sourceTree = "<group>"; };
+		7947FB752393E5C30063F169 /* SCCamerController+Noticfication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCCamerController+Noticfication.m"; sourceTree = "<group>"; };
+		7947FB772393EA5A0063F169 /* SCCamerController+RecordVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCCamerController+RecordVideo.h"; sourceTree = "<group>"; };
+		7947FB782393EA5A0063F169 /* SCCamerController+RecordVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCCamerController+RecordVideo.m"; sourceTree = "<group>"; };
+		7947FB7A2393EB150063F169 /* SCCamerController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCCamerController+Private.h"; sourceTree = "<group>"; };
+		7947FB7E2393EFC10063F169 /* SSCapturingButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCapturingButton.h; sourceTree = "<group>"; };
+		7947FB7F2393EFC10063F169 /* SSCapturingButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCapturingButton.m; sourceTree = "<group>"; };
+		7947FB832393F7FB0063F169 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7947FB842393F7FB0063F169 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7947FB8723947DAA0063F169 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		7947FB8823947DAB0063F169 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		7947FB8C23947F530063F169 /* SCCamerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCamerManager.h; sourceTree = "<group>"; };
+		7947FB8D23947F530063F169 /* SCCamerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCamerManager.m; sourceTree = "<group>"; };
+		7947FB8F23947F7E0063F169 /* SCFilterHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterHandler.h; sourceTree = "<group>"; };
+		7947FB9023947F7E0063F169 /* SCFilterHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterHandler.m; sourceTree = "<group>"; };
+		7947FB94239483100063F169 /* SSGPUImageBaseFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSGPUImageBaseFilter.h; sourceTree = "<group>"; };
+		7947FB95239483100063F169 /* SSGPUImageBaseFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSGPUImageBaseFilter.m; sourceTree = "<group>"; };
+		7947FB982394F2630063F169 /* LFGPUImageBeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFGPUImageBeautyFilter.h; sourceTree = "<group>"; };
+		7947FB992394F2630063F169 /* LFGPUImageBeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFGPUImageBeautyFilter.m; sourceTree = "<group>"; };
+		7947FB9D2397972D0063F169 /* GPUImageListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageListController.h; sourceTree = "<group>"; };
+		7947FB9E2397972D0063F169 /* GPUImageListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageListController.m; sourceTree = "<group>"; };
+		7947FBA0239798900063F169 /* GPUimageGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUimageGroupController.h; sourceTree = "<group>"; };
+		7947FBA1239798900063F169 /* GPUimageGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUimageGroupController.m; sourceTree = "<group>"; };
+		7947FBA32397992C0063F169 /* SimpleController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleController.xib; sourceTree = "<group>"; };
+		79483923238DF1CF00E93FC0 /* QuartzController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzController.h; sourceTree = "<group>"; };
+		79483924238DF1CF00E93FC0 /* QuartzController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzController.m; sourceTree = "<group>"; };
+		79483926238DF22700E93FC0 /* QuartzView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		79483927238DF22700E93FC0 /* QuartzView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+		79483929238E6C6900E93FC0 /* AVVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVVideoController.h; sourceTree = "<group>"; };
+		7948392A238E6C6900E93FC0 /* AVVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVVideoController.m; sourceTree = "<group>"; };
+		7948392D238E6CDB00E93FC0 /* SimpleVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleVideoController.h; sourceTree = "<group>"; };
+		7948392E238E6CDB00E93FC0 /* SimpleVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoController.m; sourceTree = "<group>"; };
+		79483932238EBFEE00E93FC0 /* video.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.MP4; sourceTree = "<group>"; };
+		79483934238FC77500E93FC0 /* SimpleCamerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCamerViewController.h; sourceTree = "<group>"; };
+		79483935238FC77500E93FC0 /* SimpleCamerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCamerViewController.m; sourceTree = "<group>"; };
+		7948393A238FF59000E93FC0 /* THPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THPreviewView.h; sourceTree = "<group>"; };
+		7948393B238FF59000E93FC0 /* THPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THPreviewView.m; sourceTree = "<group>"; };
+		7948393D238FFD7500E93FC0 /* THCamerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THCamerController.h; sourceTree = "<group>"; };
+		7948393E238FFD7500E93FC0 /* THCamerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THCamerController.m; sourceTree = "<group>"; };
+		794839402390B69800E93FC0 /* SimpleCamerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleCamerViewController.xib; sourceTree = "<group>"; };
 		7964592D23770C9800979D82 /* GPUImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7964593023770C9800979D82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7964593123770C9800979D82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7964593323770C9800979D82 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7964593423770C9800979D82 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		7964593623770C9800979D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7964593723770C9800979D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7964593A23770C9800979D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7964593C23770C9B00979D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7964593F23770C9B00979D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7964594123770C9B00979D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7964594223770C9B00979D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7964594823770C9B00979D82 /* GPUImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +195,55 @@
 		7964595323770C9B00979D82 /* GPUImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7964595723770C9B00979D82 /* GPUImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageDemoUITests.m; sourceTree = "<group>"; };
 		7964595923770C9B00979D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C5706239DC4F80041AFF2 /* SCFilterMaterialView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterMaterialView.h; sourceTree = "<group>"; };
+		798C5707239DC4F80041AFF2 /* SCFilterMaterialView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterMaterialView.m; sourceTree = "<group>"; };
+		798C5709239DDE2B0041AFF2 /* SCFilterMaterialViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterMaterialViewCell.h; sourceTree = "<group>"; };
+		798C570A239DDE2B0041AFF2 /* SCFilterMaterialViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterMaterialViewCell.m; sourceTree = "<group>"; };
+		798C570C239DDEF60041AFF2 /* SCFilterHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterHelper.h; sourceTree = "<group>"; };
+		798C570D239DDEF60041AFF2 /* SCFilterHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterHelper.m; sourceTree = "<group>"; };
+		798C570F239E2B090041AFF2 /* SCFilterCategoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterCategoryView.h; sourceTree = "<group>"; };
+		798C5710239E2B090041AFF2 /* SCFilterCategoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterCategoryView.m; sourceTree = "<group>"; };
+		798C5712239E2C4A0041AFF2 /* SCFilterCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterCategoryCell.h; sourceTree = "<group>"; };
+		798C5713239E2C4A0041AFF2 /* SCFilterCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterCategoryCell.m; sourceTree = "<group>"; };
+		798C5715239F34B80041AFF2 /* SCCamerTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCamerTopView.h; sourceTree = "<group>"; };
+		798C5716239F34B80041AFF2 /* SCCamerTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCamerTopView.m; sourceTree = "<group>"; };
+		798C5718239F43200041AFF2 /* SCCapturingModeSwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCapturingModeSwitchView.h; sourceTree = "<group>"; };
+		798C5719239F43200041AFF2 /* SCCapturingModeSwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCapturingModeSwitchView.m; sourceTree = "<group>"; };
+		798C571C239F80F60041AFF2 /* SCVisualEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCVisualEffectView.h; sourceTree = "<group>"; };
+		798C571D239F80F60041AFF2 /* SCVisualEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCVisualEffectView.m; sourceTree = "<group>"; };
+		798C5722239F85F80041AFF2 /* UIDevice+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extention.h"; sourceTree = "<group>"; };
+		798C5723239F85F80041AFF2 /* UIDevice+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extention.m"; sourceTree = "<group>"; };
+		79B124E82398A5D70025D4F3 /* SystemPhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemPhotoTool.h; sourceTree = "<group>"; };
+		79B124E92398A5D70025D4F3 /* SystemPhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemPhotoTool.m; sourceTree = "<group>"; };
+		79B76D0A237A5E7F00389CFE /* VaguePictureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaguePictureController.h; sourceTree = "<group>"; };
+		79B76D0B237A5E7F00389CFE /* VaguePictureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaguePictureController.m; sourceTree = "<group>"; };
+		79B76D0F237AA2DF00389CFE /* VideoFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoFilterController.h; sourceTree = "<group>"; };
+		79B76D10237AA2DF00389CFE /* VideoFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFilterController.m; sourceTree = "<group>"; };
+		79B76D14237B9D4700389CFE /* VideoTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoTableController.h; sourceTree = "<group>"; };
+		79B76D15237B9D4700389CFE /* VideoTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTableController.m; sourceTree = "<group>"; };
+		79B76D17237B9ED300389CFE /* VideoWaterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoWaterController.h; sourceTree = "<group>"; };
+		79B76D18237B9ED300389CFE /* VideoWaterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoWaterController.m; sourceTree = "<group>"; };
+		79B76D1C237BADF100389CFE /* abc.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.mp4; sourceTree = "<group>"; };
+		79B76D20237BD6E000389CFE /* qwe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qwe.mp4; sourceTree = "<group>"; };
+		79B76D28237BDD5E00389CFE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		79CEE986239BE54400CDABFA /* SCVideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCVideoModel.h; sourceTree = "<group>"; };
+		79CEE987239BE54400CDABFA /* SCVideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCVideoModel.m; sourceTree = "<group>"; };
+		79CEE989239BE94E00CDABFA /* SCCameraVideoTimeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCameraVideoTimeLabel.h; sourceTree = "<group>"; };
+		79CEE98A239BE94E00CDABFA /* SCCameraVideoTimeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCameraVideoTimeLabel.m; sourceTree = "<group>"; };
+		79CEE98C239BE9CD00CDABFA /* SCTimerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTimerHelper.h; sourceTree = "<group>"; };
+		79CEE98D239BE9CD00CDABFA /* SCTimerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTimerHelper.m; sourceTree = "<group>"; };
+		79CEE98F239C9CF100CDABFA /* SCFilterMaterialModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterMaterialModel.h; sourceTree = "<group>"; };
+		79CEE990239C9CF100CDABFA /* SCFilterMaterialModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterMaterialModel.m; sourceTree = "<group>"; };
+		79CEE992239CA0EE00CDABFA /* SCFilterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterManager.h; sourceTree = "<group>"; };
+		79CEE993239CA0EE00CDABFA /* SCFilterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterManager.m; sourceTree = "<group>"; };
+		79CEE995239CAC3800CDABFA /* SCCamerController+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCCamerController+UI.h"; sourceTree = "<group>"; };
+		79CEE996239CAC3900CDABFA /* SCCamerController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCCamerController+UI.m"; sourceTree = "<group>"; };
+		79CEE998239CFC5A00CDABFA /* UIButton+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extention.h"; sourceTree = "<group>"; };
+		79CEE999239CFC5A00CDABFA /* UIButton+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extention.m"; sourceTree = "<group>"; };
+		79CEE99B239D2BB600CDABFA /* SCFilterBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFilterBarView.h; sourceTree = "<group>"; };
+		79CEE99C239D2BB600CDABFA /* SCFilterBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFilterBarView.m; sourceTree = "<group>"; };
+		98F8A332576FB16426841847 /* libPods-GPUImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D23994136548E6E5A904585 /* Pods-GPUImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.release.xcconfig"; path = "Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +251,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8528C32AFD0F67B6A8F4EB0 /* libPods-GPUImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +272,340 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790CFC2E23A36BB400E0B3A7 /* PhotoResult */ = {
+			isa = PBXGroup;
+			children = (
+				790CFC2F23A36BE700E0B3A7 /* ViewController */,
+			);
+			path = PhotoResult;
+			sourceTree = "<group>";
+		};
+		790CFC2F23A36BE700E0B3A7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				790CFC3323A36BE700E0B3A7 /* SCPhotoResultViewController.h */,
+				790CFC3023A36BE700E0B3A7 /* SCPhotoResultViewController.m */,
+				790CFC3123A36BE700E0B3A7 /* SCPhotoResultViewController+UI.h */,
+				790CFC3223A36BE700E0B3A7 /* SCPhotoResultViewController+UI.m */,
+				790CFC3423A36BE700E0B3A7 /* SCPhotoResultViewController+Private.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7935939E23794D08004CA570 /* 滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				7935939F23794D1A004CA570 /* SimpleController.h */,
+				793593A023794D1A004CA570 /* SimpleController.m */,
+				7947FBA32397992C0063F169 /* SimpleController.xib */,
+			);
+			path = "滤镜";
+			sourceTree = "<group>";
+		};
+		793593A223794DF5004CA570 /* CamerVideo */ = {
+			isa = PBXGroup;
+			children = (
+				793593A323794E08004CA570 /* CamerVideoController.h */,
+				793593A423794E08004CA570 /* CamerVideoController.m */,
+			);
+			path = CamerVideo;
+			sourceTree = "<group>";
+		};
+		793BA25F23A8632B0052BB8F /* VideoResult */ = {
+			isa = PBXGroup;
+			children = (
+				793BA26023A87AF30052BB8F /* ViewController */,
+			);
+			path = VideoResult;
+			sourceTree = "<group>";
+		};
+		793BA26023A87AF30052BB8F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				793BA26123A87AF30052BB8F /* SCVideoResultViewController.m */,
+				793BA26223A87AF30052BB8F /* SCVideoResultViewController+UI.h */,
+				793BA26323A87AF30052BB8F /* SCVideoResultViewController+Private.h */,
+				793BA26423A87AF30052BB8F /* SCVideoResultViewController.h */,
+				793BA26523A87AF30052BB8F /* SCVideoResultViewController+UI.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		793E4A8323C6C4DD007C42FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A8B23C6C553007C42FE /* DefaultImage */,
+				793E4A8523C6C4ED007C42FE /* Plistt */,
+				793E4A8423C6C4E4007C42FE /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		793E4A8423C6C4E4007C42FE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		793E4A8523C6C4ED007C42FE /* Plistt */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A8623C6C514007C42FE /* DefaultFilterMaterials.plist */,
+				793E4A8723C6C514007C42FE /* TikTokFilterMaterials.plist */,
+			);
+			path = Plistt;
+			sourceTree = "<group>";
+		};
+		793E4A8B23C6C553007C42FE /* DefaultImage */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A8C23C6C56D007C42FE /* filter_sample.jpg */,
+			);
+			path = DefaultImage;
+			sourceTree = "<group>";
+		};
+		793E4A9123CCB2AC007C42FE /* TikTok */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A9223CCB2AC007C42FE /* SCGPUImageVertigoFilter.h */,
+				793E4A9323CCB2AC007C42FE /* SCGPUImageScaleFilter.h */,
+				793E4A9423CCB2AC007C42FE /* SCGPUImageSoulOutFilter.h */,
+				793E4A9523CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.h */,
+				793E4A9623CCB2AC007C42FE /* SCGPUImageGlitchFilter.h */,
+				793E4A9723CCB2AC007C42FE /* SCGPUImageShakeFilter.m */,
+				793E4A9823CCB2AC007C42FE /* SCGPUImageVertigoFilter.m */,
+				793E4A9923CCB2AC007C42FE /* SCGPUImageSoulOutFilter.m */,
+				793E4A9A23CCB2AC007C42FE /* SCGPUImageScaleFilter.m */,
+				793E4A9B23CCB2AC007C42FE /* SCGPUImageShakeFilter.h */,
+				793E4A9C23CCB2AC007C42FE /* SCGPUImageGlitchFilter.m */,
+				793E4A9D23CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.m */,
+			);
+			path = TikTok;
+			sourceTree = "<group>";
+		};
+		7945D8F6239A0088002F7411 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7945D8F7239A00AB002F7411 /* SCFileHelper.h */,
+				7945D8F8239A00AB002F7411 /* SCFileHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7947FB6B2393DFBC0063F169 /* GPUimage-简单相机 */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A8323C6C4DD007C42FE /* Resource */,
+				7947FB972394F2510063F169 /* ThirdParty */,
+				7947FB92239482D90063F169 /* Filter */,
+				7947FB8A23947F300063F169 /* Camer */,
+				7947FB812393F5230063F169 /* Category */,
+				7947FB7D2393EF780063F169 /* View */,
+				7947FB702393E0AD0063F169 /* Controller */,
+				7947FB6F2393E0060063F169 /* Common */,
+				790CFC2E23A36BB400E0B3A7 /* PhotoResult */,
+				793BA25F23A8632B0052BB8F /* VideoResult */,
+			);
+			path = "GPUimage-简单相机";
+			sourceTree = "<group>";
+		};
+		7947FB6F2393E0060063F169 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				798C571B239F80C50041AFF2 /* View */,
+				7945D8F6239A0088002F7411 /* Utils */,
+				7947FB8623947D8A0063F169 /* Define */,
+				7947FB6C2393DFEF0063F169 /* SCViewController.h */,
+				7947FB6D2393DFEF0063F169 /* SCViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7947FB702393E0AD0063F169 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB712393E0C40063F169 /* SCCamerController.h */,
+				7947FB722393E0C40063F169 /* SCCamerController.m */,
+				7947FB7A2393EB150063F169 /* SCCamerController+Private.h */,
+				7947FB742393E5C30063F169 /* SCCamerController+Noticfication.h */,
+				7947FB752393E5C30063F169 /* SCCamerController+Noticfication.m */,
+				7947FB772393EA5A0063F169 /* SCCamerController+RecordVideo.h */,
+				7947FB782393EA5A0063F169 /* SCCamerController+RecordVideo.m */,
+				79CEE995239CAC3800CDABFA /* SCCamerController+UI.h */,
+				79CEE996239CAC3900CDABFA /* SCCamerController+UI.m */,
+				793E4A8E23C761B6007C42FE /* SCCamerController+Filter.h */,
+				793E4A8F23C761B6007C42FE /* SCCamerController+Filter.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7947FB7D2393EF780063F169 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				798C5706239DC4F80041AFF2 /* SCFilterMaterialView.h */,
+				798C5707239DC4F80041AFF2 /* SCFilterMaterialView.m */,
+				798C5709239DDE2B0041AFF2 /* SCFilterMaterialViewCell.h */,
+				798C570A239DDE2B0041AFF2 /* SCFilterMaterialViewCell.m */,
+				7947FB7E2393EFC10063F169 /* SSCapturingButton.h */,
+				7947FB7F2393EFC10063F169 /* SSCapturingButton.m */,
+				79CEE989239BE94E00CDABFA /* SCCameraVideoTimeLabel.h */,
+				79CEE98A239BE94E00CDABFA /* SCCameraVideoTimeLabel.m */,
+				79CEE99B239D2BB600CDABFA /* SCFilterBarView.h */,
+				79CEE99C239D2BB600CDABFA /* SCFilterBarView.m */,
+				798C570F239E2B090041AFF2 /* SCFilterCategoryView.h */,
+				798C5710239E2B090041AFF2 /* SCFilterCategoryView.m */,
+				798C5712239E2C4A0041AFF2 /* SCFilterCategoryCell.h */,
+				798C5713239E2C4A0041AFF2 /* SCFilterCategoryCell.m */,
+				798C5715239F34B80041AFF2 /* SCCamerTopView.h */,
+				798C5716239F34B80041AFF2 /* SCCamerTopView.m */,
+				798C5718239F43200041AFF2 /* SCCapturingModeSwitchView.h */,
+				798C5719239F43200041AFF2 /* SCCapturingModeSwitchView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7947FB812393F5230063F169 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB832393F7FB0063F169 /* UIView+Extension.h */,
+				7947FB842393F7FB0063F169 /* UIView+Extension.m */,
+				79CEE998239CFC5A00CDABFA /* UIButton+Extention.h */,
+				79CEE999239CFC5A00CDABFA /* UIButton+Extention.m */,
+				798C5722239F85F80041AFF2 /* UIDevice+Extention.h */,
+				798C5723239F85F80041AFF2 /* UIDevice+Extention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7947FB8623947D8A0063F169 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB8723947DAA0063F169 /* EXTScope.h */,
+				7947FB8823947DAB0063F169 /* metamacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		7947FB8A23947F300063F169 /* Camer */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB8B23947F370063F169 /* Model */,
+			);
+			path = Camer;
+			sourceTree = "<group>";
+		};
+		7947FB8B23947F370063F169 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB8C23947F530063F169 /* SCCamerManager.h */,
+				7947FB8D23947F530063F169 /* SCCamerManager.m */,
+				79CEE98F239C9CF100CDABFA /* SCFilterMaterialModel.h */,
+				79CEE990239C9CF100CDABFA /* SCFilterMaterialModel.m */,
+				7947FB8F23947F7E0063F169 /* SCFilterHandler.h */,
+				7947FB9023947F7E0063F169 /* SCFilterHandler.m */,
+				79CEE992239CA0EE00CDABFA /* SCFilterManager.h */,
+				79CEE993239CA0EE00CDABFA /* SCFilterManager.m */,
+				79CEE986239BE54400CDABFA /* SCVideoModel.h */,
+				79CEE987239BE54400CDABFA /* SCVideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7947FB92239482D90063F169 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				793E4A9123CCB2AC007C42FE /* TikTok */,
+				7947FB93239482E20063F169 /* Base */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		7947FB93239482E20063F169 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB94239483100063F169 /* SSGPUImageBaseFilter.h */,
+				7947FB95239483100063F169 /* SSGPUImageBaseFilter.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7947FB972394F2510063F169 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB982394F2630063F169 /* LFGPUImageBeautyFilter.h */,
+				7947FB992394F2630063F169 /* LFGPUImageBeautyFilter.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		7947FB9B23969F760063F169 /* GPUImage 简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				7947FB9C239795F80063F169 /* 组合滤镜 */,
+				79B76D13237B9D2E00389CFE /* 视频水印 */,
+				79B76D0E237AA2C500389CFE /* 视频录制 */,
+				79B76D09237A5E6300389CFE /* 图片模糊处理 */,
+				793593A223794DF5004CA570 /* CamerVideo */,
+				7935939E23794D08004CA570 /* 滤镜 */,
+				7947FB9D2397972D0063F169 /* GPUImageListController.h */,
+				7947FB9E2397972D0063F169 /* GPUImageListController.m */,
+			);
+			path = "GPUImage 简单使用";
+			sourceTree = "<group>";
+		};
+		7947FB9C239795F80063F169 /* 组合滤镜 */ = {
+			isa = PBXGroup;
+			children = (
+				7947FBA0239798900063F169 /* GPUimageGroupController.h */,
+				7947FBA1239798900063F169 /* GPUimageGroupController.m */,
+			);
+			path = "组合滤镜";
+			sourceTree = "<group>";
+		};
+		79483922238DF16600E93FC0 /* Quartz 2D */ = {
+			isa = PBXGroup;
+			children = (
+				79483923238DF1CF00E93FC0 /* QuartzController.h */,
+				79483924238DF1CF00E93FC0 /* QuartzController.m */,
+				79483926238DF22700E93FC0 /* QuartzView.h */,
+				79483927238DF22700E93FC0 /* QuartzView.m */,
+			);
+			path = "Quartz 2D";
+			sourceTree = "<group>";
+		};
+		7948392C238E6CBE00E93FC0 /* AVFoundation 列表 */ = {
+			isa = PBXGroup;
+			children = (
+				79483938238FF55A00E93FC0 /* 简单相机 */,
+				7948392D238E6CDB00E93FC0 /* SimpleVideoController.h */,
+				7948392E238E6CDB00E93FC0 /* SimpleVideoController.m */,
+			);
+			path = "AVFoundation 列表";
+			sourceTree = "<group>";
+		};
+		79483930238EBB6300E93FC0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79483932238EBFEE00E93FC0 /* video.MP4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		79483938238FF55A00E93FC0 /* 简单相机 */ = {
+			isa = PBXGroup;
+			children = (
+				79483934238FC77500E93FC0 /* SimpleCamerViewController.h */,
+				79483935238FC77500E93FC0 /* SimpleCamerViewController.m */,
+				794839402390B69800E93FC0 /* SimpleCamerViewController.xib */,
+				7948393A238FF59000E93FC0 /* THPreviewView.h */,
+				7948393B238FF59000E93FC0 /* THPreviewView.m */,
+				7948393D238FFD7500E93FC0 /* THCamerController.h */,
+				7948393E238FFD7500E93FC0 /* THCamerController.m */,
+			);
+			path = "简单相机";
+			sourceTree = "<group>";
+		};
 		7964592423770C9800979D82 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +613,8 @@
 				7964594B23770C9B00979D82 /* GPUImageDemoTests */,
 				7964595623770C9B00979D82 /* GPUImageDemoUITests */,
 				7964592E23770C9800979D82 /* Products */,
+				EF5D10A9D32B7F9DCE5FD473 /* Pods */,
+				F9426A793AE322577F555CEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,15 +631,22 @@
 		7964592F23770C9800979D82 /* GPUImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				79B124E72398A00C0025D4F3 /* Utils */,
+				79483930238EBB6300E93FC0 /* Resource */,
+				7947FB6B2393DFBC0063F169 /* GPUimage-简单相机 */,
+				7948392C238E6CBE00E93FC0 /* AVFoundation 列表 */,
+				7947FB9B23969F760063F169 /* GPUImage 简单使用 */,
+				79483922238DF16600E93FC0 /* Quartz 2D */,
 				7964593023770C9800979D82 /* AppDelegate.h */,
 				7964593123770C9800979D82 /* AppDelegate.m */,
-				7964593323770C9800979D82 /* SceneDelegate.h */,
-				7964593423770C9800979D82 /* SceneDelegate.m */,
-				7964593623770C9800979D82 /* ViewController.h */,
-				7964593723770C9800979D82 /* ViewController.m */,
-				7964593923770C9800979D82 /* Main.storyboard */,
+				7933141F237957A30023957D /* RootViewController.h */,
+				79331420237957A30023957D /* RootViewController.m */,
+				79483929238E6C6900E93FC0 /* AVVideoController.h */,
+				7948392A238E6C6900E93FC0 /* AVVideoController.m */,
+				793314682379600F0023957D /* RootViewController.xib */,
+				79001B552379A3A000686B89 /* Main.storyboard */,
+				79B76D28237BDD5E00389CFE /* PrefixHeader.pch */,
 				7964593C23770C9B00979D82 /* Assets.xcassets */,
-				7964593E23770C9B00979D82 /* LaunchScreen.storyboard */,
 				7964594123770C9B00979D82 /* Info.plist */,
 				7964594223770C9B00979D82 /* main.m */,
 			);
@@ -137,6 +671,86 @@
 			path = GPUImageDemoUITests;
 			sourceTree = "<group>";
 		};
+		798C571B239F80C50041AFF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				798C571C239F80F60041AFF2 /* SCVisualEffectView.h */,
+				798C571D239F80F60041AFF2 /* SCVisualEffectView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79B124E72398A00C0025D4F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				798C570C239DDEF60041AFF2 /* SCFilterHelper.h */,
+				798C570D239DDEF60041AFF2 /* SCFilterHelper.m */,
+				79B124E82398A5D70025D4F3 /* SystemPhotoTool.h */,
+				79B124E92398A5D70025D4F3 /* SystemPhotoTool.m */,
+				79CEE98C239BE9CD00CDABFA /* SCTimerHelper.h */,
+				79CEE98D239BE9CD00CDABFA /* SCTimerHelper.m */,
+				793BA26823A87B260052BB8F /* SCAssetHelper.h */,
+				793BA26923A87B260052BB8F /* SCAssetHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		79B76D09237A5E6300389CFE /* 图片模糊处理 */ = {
+			isa = PBXGroup;
+			children = (
+				79B76D0A237A5E7F00389CFE /* VaguePictureController.h */,
+				79B76D0B237A5E7F00389CFE /* VaguePictureController.m */,
+			);
+			path = "图片模糊处理";
+			sourceTree = "<group>";
+		};
+		79B76D0E237AA2C500389CFE /* 视频录制 */ = {
+			isa = PBXGroup;
+			children = (
+				79B76D0F237AA2DF00389CFE /* VideoFilterController.h */,
+				79B76D10237AA2DF00389CFE /* VideoFilterController.m */,
+			);
+			path = "视频录制";
+			sourceTree = "<group>";
+		};
+		79B76D13237B9D2E00389CFE /* 视频水印 */ = {
+			isa = PBXGroup;
+			children = (
+				79B76D1A237BA23800389CFE /* resource */,
+				79B76D14237B9D4700389CFE /* VideoTableController.h */,
+				79B76D15237B9D4700389CFE /* VideoTableController.m */,
+				79B76D17237B9ED300389CFE /* VideoWaterController.h */,
+				79B76D18237B9ED300389CFE /* VideoWaterController.m */,
+			);
+			path = "视频水印";
+			sourceTree = "<group>";
+		};
+		79B76D1A237BA23800389CFE /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				79B76D20237BD6E000389CFE /* qwe.mp4 */,
+				79B76D1C237BADF100389CFE /* abc.mp4 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		EF5D10A9D32B7F9DCE5FD473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3498A284FDB38B0B3968D7F0 /* Pods-GPUImageDemo.debug.xcconfig */,
+				9D23994136548E6E5A904585 /* Pods-GPUImageDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9426A793AE322577F555CEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F8A332576FB16426841847 /* libPods-GPUImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +758,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7964595C23770C9B00979D82 /* Build configuration list for PBXNativeTarget "GPUImageDemo" */;
 			buildPhases = (
+				05E749942420F98326DF4B98 /* [CP] Check Pods Manifest.lock */,
 				7964592923770C9800979D82 /* Sources */,
 				7964592A23770C9800979D82 /* Frameworks */,
 				7964592B23770C9800979D82 /* Resources */,
+				ECC5E4619F00FC1E803F69E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,9 +856,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7964594023770C9B00979D82 /* LaunchScreen.storyboard in Resources */,
+				79483933238EC05400E93FC0 /* video.MP4 in Resources */,
+				794839412390B69800E93FC0 /* SimpleCamerViewController.xib in Resources */,
+				79B76D1D237BADF100389CFE /* abc.mp4 in Resources */,
+				793E4A8D23C6C56D007C42FE /* filter_sample.jpg in Resources */,
+				793E4A8823C6C515007C42FE /* DefaultFilterMaterials.plist in Resources */,
+				7947FBA42397992C0063F169 /* SimpleController.xib in Resources */,
 				7964593D23770C9B00979D82 /* Assets.xcassets in Resources */,
-				7964593B23770C9800979D82 /* Main.storyboard in Resources */,
+				793314692379600F0023957D /* RootViewController.xib in Resources */,
+				793E4A8923C6C515007C42FE /* TikTokFilterMaterials.plist in Resources */,
+				79B76D21237BD6E100389CFE /* qwe.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,15 +885,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05E749942420F98326DF4B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GPUImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC5E4619F00FC1E803F69E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7964592923770C9800979D82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7964593823770C9800979D82 /* ViewController.m in Sources */,
+				7948393C238FF59000E93FC0 /* THPreviewView.m in Sources */,
+				79B76D11237AA2DF00389CFE /* VideoFilterController.m in Sources */,
+				7947FB852393F7FB0063F169 /* UIView+Extension.m in Sources */,
+				793E4AA123CCB2AC007C42FE /* SCGPUImageScaleFilter.m in Sources */,
+				79331421237957A30023957D /* RootViewController.m in Sources */,
+				7948392F238E6CDB00E93FC0 /* SimpleVideoController.m in Sources */,
+				79483925238DF1CF00E93FC0 /* QuartzController.m in Sources */,
+				79B124EA2398A5D70025D4F3 /* SystemPhotoTool.m in Sources */,
+				7947FB9123947F7E0063F169 /* SCFilterHandler.m in Sources */,
 				7964593223770C9800979D82 /* AppDelegate.m in Sources */,
+				793E4A9E23CCB2AC007C42FE /* SCGPUImageShakeFilter.m in Sources */,
+				793E4AA023CCB2AC007C42FE /* SCGPUImageSoulOutFilter.m in Sources */,
+				79CEE988239BE54400CDABFA /* SCVideoModel.m in Sources */,
+				7947FB762393E5C30063F169 /* SCCamerController+Noticfication.m in Sources */,
+				790CFC3623A36BE700E0B3A7 /* SCPhotoResultViewController+UI.m in Sources */,
+				7948393F238FFD7500E93FC0 /* THCamerController.m in Sources */,
+				798C5711239E2B0A0041AFF2 /* SCFilterCategoryView.m in Sources */,
+				7948392B238E6C6900E93FC0 /* AVVideoController.m in Sources */,
+				79483928238DF22700E93FC0 /* QuartzView.m in Sources */,
+				798C5724239F85F80041AFF2 /* UIDevice+Extention.m in Sources */,
+				7947FBA2239798900063F169 /* GPUimageGroupController.m in Sources */,
+				7947FB9F2397972D0063F169 /* GPUImageListController.m in Sources */,
+				7947FB9A2394F2640063F169 /* LFGPUImageBeautyFilter.m in Sources */,
+				793BA26A23A87B260052BB8F /* SCAssetHelper.m in Sources */,
+				793593A523794E08004CA570 /* CamerVideoController.m in Sources */,
+				793BA26723A87AF30052BB8F /* SCVideoResultViewController+UI.m in Sources */,
+				7947FB732393E0C40063F169 /* SCCamerController.m in Sources */,
+				7947FB802393EFC10063F169 /* SSCapturingButton.m in Sources */,
+				79CEE997239CAC3900CDABFA /* SCCamerController+UI.m in Sources */,
+				798C5714239E2C4A0041AFF2 /* SCFilterCategoryCell.m in Sources */,
+				7947FB6E2393DFEF0063F169 /* SCViewController.m in Sources */,
+				7947FB792393EA5A0063F169 /* SCCamerController+RecordVideo.m in Sources */,
+				79CEE991239C9CF100CDABFA /* SCFilterMaterialModel.m in Sources */,
+				79B76D0C237A5E7F00389CFE /* VaguePictureController.m in Sources */,
+				79483936238FC77600E93FC0 /* SimpleCamerViewController.m in Sources */,
+				798C5708239DC4F80041AFF2 /* SCFilterMaterialView.m in Sources */,
+				793BA26623A87AF30052BB8F /* SCVideoResultViewController.m in Sources */,
+				79CEE98B239BE94E00CDABFA /* SCCameraVideoTimeLabel.m in Sources */,
+				798C570E239DDEF60041AFF2 /* SCFilterHelper.m in Sources */,
+				793E4AA323CCB2AC007C42FE /* SCGPUImageShineWhiteFilter.m in Sources */,
+				793593A123794D1A004CA570 /* SimpleController.m in Sources */,
+				79B76D19237B9ED300389CFE /* VideoWaterController.m in Sources */,
+				7947FB96239483100063F169 /* SSGPUImageBaseFilter.m in Sources */,
+				79CEE994239CA0EE00CDABFA /* SCFilterManager.m in Sources */,
+				79CEE98E239BE9CD00CDABFA /* SCTimerHelper.m in Sources */,
+				79CEE99A239CFC5A00CDABFA /* UIButton+Extention.m in Sources */,
+				790CFC3523A36BE700E0B3A7 /* SCPhotoResultViewController.m in Sources */,
 				7964594323770C9B00979D82 /* main.m in Sources */,
-				7964593523770C9800979D82 /* SceneDelegate.m in Sources */,
+				798C570B239DDE2B0041AFF2 /* SCFilterMaterialViewCell.m in Sources */,
+				798C571A239F43200041AFF2 /* SCCapturingModeSwitchView.m in Sources */,
+				798C5717239F34B80041AFF2 /* SCCamerTopView.m in Sources */,
+				793E4A9023C761B6007C42FE /* SCCamerController+Filter.m in Sources */,
+				79B76D16237B9D4700389CFE /* VideoTableController.m in Sources */,
+				7947FB8E23947F530063F169 /* SCCamerManager.m in Sources */,
+				79CEE99D239D2BB600CDABFA /* SCFilterBarView.m in Sources */,
+				7945D8F9239A00AB002F7411 /* SCFileHelper.m in Sources */,
+				793E4A9F23CCB2AC007C42FE /* SCGPUImageVertigoFilter.m in Sources */,
+				798C571E239F80F60041AFF2 /* SCVisualEffectView.m in Sources */,
+				793E4AA223CCB2AC007C42FE /* SCGPUImageGlitchFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,25 +1024,6 @@
 			targetProxy = 7964595423770C9B00979D82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7964593923770C9800979D82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7964593A23770C9800979D82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7964593E23770C9B00979D82 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7964593F23770C9B00979D82 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7964595A23770C9B00979D82 /* Debug */ = {
@@ -437,11 +1138,15 @@
 		};
 		7964595D23770C9B00979D82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3498A284FDB38B0B3968D7F0 /* Pods-GPUImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XW8565VE4F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +1159,15 @@
 		};
 		7964595E23770C9B00979D82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D23994136548E6E5A904585 /* Pods-GPUImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XW8565VE4F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GPUImageDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = GPUImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
